@@ -1,5 +1,5 @@
 # Dakota
-*Seamlessly make you efficiently productive*
+*Seamlessly making you efficiently productive*
 
 Credit: Oyinloye Adebayo (Product Designer)
 

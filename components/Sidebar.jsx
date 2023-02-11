@@ -10,7 +10,7 @@ const Sidebar = ({ children }) => {
   return (
     <section>
       <aside className="flex">
-        <div className="fixed w-26 h-screen p-2 bg-green-800 border-r-[1px] flex flex-col justify-between">
+        <div className="fixed h-screen bg-green-800 border-r-[1px] flex flex-col justify-between">
           <section className="flex flex-col items-center text-white font-light">
             <Link href="/">
               <div className="text-white p-3 rounded-lg inline-block">
@@ -19,15 +19,15 @@ const Sidebar = ({ children }) => {
             </Link>
 
             <Link href="/">
-              <div className="bg-green-200 text-green-800 font-semibold m-2 p-3 rounded-2xl shadow-lg flex justify-between items-center">
-                <MdDashboard className="mr-4" />
+              <div className="bg-green-200 text-green-800 font-semibold m-2 p-3 rounded-xl shadow-lg flex justify-between items-center">
+                <MdDashboard className="mr-2" />
                 <p>Dashboard</p>
               </div>
             </Link>
 
             <Link href="/projects">
               <div className="m-2 p-3 rounded-lg flex justify-between items-center">
-                <AiOutlineFundProjectionScreen className="mr-2 fill-white" />
+                <AiOutlineFundProjectionScreen className="mr-2" />
                 <p>Projects</p>
               </div>
             </Link>
@@ -63,7 +63,7 @@ const Sidebar = ({ children }) => {
           </section>
         </div>
       </aside>
-      <main className="ml-44">{children}</main>
+      <main className="ml-40">{children}</main>
     </section>
   );
 };
