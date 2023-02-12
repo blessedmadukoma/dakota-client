@@ -4,22 +4,22 @@ import { BsFillClockFill } from "react-icons/bs";
 const RightSide = () => {
   return (
     <section className="flex flex-col  h-full w-full">
-      <section className="bg-green-700 rounded-xl mb-7 p-5 drop-shadow-md space-x-4 items-center text-white">
+      <section className="bg-[#238176] rounded-xl mb-7 p-5 drop-shadow-md space-x-4 items-center text-white">
         <div className="flex space-x-4">
           <BsFillClockFill className="text-white self-start mt-1" />
           <div>
             <p className="font-normal text-md tracking-wide">
               Call Azure Client
             </p>
-            <span className="text-orange-400 mr-4 text-sm tracking-wide">
+            <span className="text-[#F7A453] mr-4 text-sm tracking-wide">
               Today, 2 P.M
             </span>
           </div>
         </div>
       </section>
 
-      <section className="bg-white rounded-xl p-4 drop-shadow-md space-x-4 text-green-700">
-        <section className="flex justify-evenly space-x-2">
+      <section className="bg-white rounded-xl p-4 drop-shadow-md space-x-4 text-[#036666]">
+        <section className="flex md:justify-evenly lg:space-x-12">
           <div className="flex flex-col text-center bg-gray-100 p-3 rounded-xl">
             <span className="text-xl font-normal">1</span>
             <span className="text-sm font-medium tracking-wide">Mon</span>
@@ -30,7 +30,7 @@ const RightSide = () => {
             <span className="text-sm font-medium tracking-wide">Tue</span>
           </div>
 
-          <div className="flex flex-col text-center bg-green-700 p-3 rounded-xl text-white">
+          <div className="flex flex-col text-center bg-[#036666] shadow-lg shadow-[#78C6A3] p-3 rounded-xl text-white">
             <span className="text-xl font-normal">3</span>
             <span className="text-sm font-medium tracking-wide">Wed</span>
           </div>
@@ -46,12 +46,12 @@ const RightSide = () => {
           </div>
         </section>
 
-        <section className="mt-12 space-y-10">
+        <section className="mt-12 space-y-10 text-[#539C94]">
           <div>
             <span className="text-md font-medium tracking-wide">08 am</span>
             <hr className="border-dashed border-green-200 tracking-widest" />
           </div>
-          
+
           <div>
             <span className="text-md font-medium tracking-wide">09 am</span>
             <hr className="border-dashed border-green-200 tracking-widest" />

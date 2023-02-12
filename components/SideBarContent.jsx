@@ -8,7 +8,7 @@ import { BsFillCalendarWeekFill, BsMoonFill } from "react-icons/bs";
 
 const SideBarContent = () => {
   return (
-    <div className="fixed h-screen bg-green-800 border-r-[1px] flex flex-col justify-between">
+    <div className="fixed h-screen bg-[#036666] border-r-[1px] flex flex-col justify-between">
       <section className="flex flex-col items-center text-white font-light">
         <Link href="/">
           <div className="text-white p-3 rounded-lg inline-block">
@@ -17,7 +17,7 @@ const SideBarContent = () => {
         </Link>
 
         <Link href="/">
-          <div className="bg-green-200 text-green-800 font-semibold m-2 p-3 rounded-xl shadow-lg flex justify-between items-center">
+          <div className="bg-[#CCF1DA] text-[#036666] font-semibold m-2 p-3 rounded-xl shadow-lg flex justify-between items-center">
             <MdDashboard className="mr-2" />
             <p>Dashboard</p>
           </div>
@@ -55,7 +55,7 @@ const SideBarContent = () => {
           <div className="m-2 p-3 rounded-lg flex justify-between items-center">
             <BsMoonFill className="mr-2" />
             <p className="mr-2">Light off</p>
-            <FaToggleOn className="w-8 h-5" />
+            <FaToggleOn className="w-8 h-5 text-[#98E1B3]" />
           </div>
         </Link>
       </section>
