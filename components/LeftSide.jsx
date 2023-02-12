@@ -55,7 +55,7 @@ function LeftSide() {
       </section>
 
       <section className="bg-white rounded-xl p-2 drop-shadow-md">
-        <section className="flex justify-between bg-green-100 rounded-lg items-center p-2">
+        <section className="flex bg-green-50 rounded-lg items-center p-2">
           <p className="text-green-800 font-bold w-1/2">Projects</p>
           <p className="text-green-800 font-bold w-2/2">Todo</p>
         </section>
