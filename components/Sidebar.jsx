@@ -7,6 +7,7 @@ const Sidebar = ({ children }) => {
       <aside className="flex">
         <SideBarContent />
       </aside>
+      {/* <main className="ml-40 w-full">{children}</main> */}
       <main className="ml-40">{children}</main>
     </section>
   );

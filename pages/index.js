@@ -12,7 +12,10 @@ export default function Home() {
     <>
       <Head>
         <title>Dakota</title>
-        <meta name="description" content="Seamlessly making you efficiently productive" />
+        <meta
+          name="description"
+          content="Seamlessly making you efficiently productive"
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -20,7 +23,7 @@ export default function Home() {
         <section className="px-8 py-6">
           <Header />
 
-          <section className="flex justify-between mt-4 p-2">
+          <section className="flex space-x-6 mt-4 py-2 max-h-screen">
             <LeftSide />
             <RightSide />
           </section>

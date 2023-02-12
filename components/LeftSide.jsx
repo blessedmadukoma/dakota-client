@@ -2,7 +2,7 @@ import React from "react";
 
 function LeftSide() {
   return (
-    <section className="flex flex-col w-1/2">
+    <section className="flex flex-col w-full h-full">
       <section className="bg-white rounded-xl mb-7 p-4 drop-shadow-md">
         <p className="text-green-800 font-bold pb-4">It's a new day Loy</p>
         <p className="text-sm text-gray-400 pb-8">
