@@ -4,6 +4,8 @@ import { Inter } from "@next/font/google";
 import Header from "@/components/Header";
 import LeftSide from "@/components/LeftSide";
 import RightSide from "@/components/RightSide";
+import Layout from "@/components/Layout";
+import Sidebar from "@/components/Sidebar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,16 +21,18 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="bg-green-50 min-h-screen">
-        <section className="px-8 py-6">
-          <Header />
+      <Layout>
+        <div className="flex flex-col p-10">
+          <div className="mb-8">
+            <Header dashboardText="Dashboard" />
+          </div>
 
-          <section className="flex space-x-6 mt-4 py-2 max-h-screen">
+          <div className="flex space-x-4">
             <LeftSide />
             <RightSide />
-          </section>
-        </section>
-      </main>
+          </div>
+        </div>
+      </Layout>
     </>
   );
 }
